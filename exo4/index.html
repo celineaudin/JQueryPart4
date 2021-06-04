@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta http-equiv="X-UA-Compatible" content="ie=edge">
+				<link rel="stylesheet" href="style.css">
+	</head>
+<body>
+<form id="contact" method="post" action="">
+	<!-- Nom -->
+	<div>
+		<label for="contact_name">Nom :</label>
+		<input type="text" id="contact_name" name="name"></input>
+		<span id="errorName"></span>
+	</div>
+		<!-- Prénom -->
+	<div>
+		<label for="contact_lastName">Prénom :</label>
+		<input type="text" id="contact_lastName" name="lastName"></input>
+		<span id="errorLastName"></span>
+	</div>
+	<!-- Date de Naissance -->
+	<div>
+		<label for="contact_birthDate">Date de Naissance :</label>
+		<input type="birthDate" id="contact_birthDate" name="birthDate"></input>
+		<span id="errorBirthDate"></span>
+	</div>
+	<!--Lieu de Naissance-->
+	<div>
+		<label for="contact_birthPlace">Lieu de Naissance :</label>
+		<input type="text" id="contact_birthPlace" name="birthPlace"></input>
+		<span id="errorBirthPlace"></span>
+	</div>
+	<!--Emploi-->
+	<div>
+		<label for="contact_work">Emploi :</label>
+		<input type="text" id="contact_work" name="work"></input>
+		<span id="errorWork"></span>
+	</div>
+	<!--Société-->
+	<div>
+		<label for="contact_firm">Société :</label>
+		<input type="text" id="contact_firm" name="firm"></input>
+		<span id="errorFirm"></span>
+	</div>
+	<!-- Submit Button -->
+	<div type ="text" id="contact_submit">
+		<input type="button" name="btn" value="submit" id="btn">
+	</div>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>

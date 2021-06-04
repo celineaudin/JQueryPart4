@@ -1,0 +1,10 @@
+input {
+background-color: pink;
+height: 40px;
+margin : 20px;}
+
+select {
+height: 40px;
+width : 150px;
+margin : 20px;
+}
